@@ -1,0 +1,6 @@
+.idea/
+.vscode/
+*.pyc
+settings_secrets.py
+*.sqlite3
+node_modules/

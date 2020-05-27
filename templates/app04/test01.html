@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}test01{% endblock %}
+
+{% block content %}
+<h2>test04</h2>
+
+<img src='{% url 'app04:plot2' 1 'USD_JPY' %}' width=600 height=600>
+   
+{% endblock %}
+

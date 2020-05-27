@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}test01{% endblock %}
+
+{% block content %}
+<h2>test01</h2>
+  <section class="section">
+    <div class="container">
+          <div id="app" class="columns"><!-- React --></div>
+    </div>
+  </section>
+{% endblock %}
+
+{% block javascript2 %}
+<script src="{% static "app01/main.js" %}"></script>
+{% endblock %}

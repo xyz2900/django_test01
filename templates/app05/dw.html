@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}webサイト(XXX)アクセス表示{% endblock %}
+
+{% block content %}
+<h2>webサイト(XXX)アクセス(曜日別)</h2>
+   <div class="container">
+      <div class="row">
+         <div class="col-sm">
+            {% autoescape off %}
+               {{ plot_access }}
+            {% endautoescape %}
+         </div>
+         <div class="col-sm">
+
+         </div>
+      </div>
+   </div>
+{% endblock %}
+
+{%  block javascript %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+{%  endblock %}
+

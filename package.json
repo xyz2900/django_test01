@@ -1,0 +1,37 @@
+{
+  "name": "test01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./app01/src/index.js --output ./static/app01/main.js",
+    "app00": "webpack --mode production ./app00/src/index.js --output ./static/app00/main.js",
+    "app01": "webpack --mode production ./app01/src/index.js --output ./static/app01/main.js",
+    "app02": "webpack --mode production ./app02/src/index.js --output ./static/app02/main.js",
+    "app03": "webpack --mode development ./app03/src/index.js --output ./static/app03/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "core-js": "^2.6.11",
+    "d3-dsv": "^1.2.0",
+    "d3-time-format": "^2.2.3",
+    "react-chartjs-2": "^2.9.0",
+    "react-stockcharts": "^0.7.8"
+  }
+}
