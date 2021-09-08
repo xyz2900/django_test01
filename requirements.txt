@@ -28,7 +28,7 @@ mplfinance==0.12.3a3
 numpy==1.18.2
 oauthlib==3.1.0
 pandas==1.0.3
-Pillow==7.1.1
+Pillow==8.3.2
 plotly==4.6.0
 psycopg2-binary==2.8.5
 pyarrow==0.16.0
